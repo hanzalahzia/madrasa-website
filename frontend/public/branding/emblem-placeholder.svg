@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Placeholder emblem for Madrasa Miftah ul Uloom</title>
+  <defs>
+    <style>
+      .ink { fill: none; stroke: #064E3B; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .gold { fill: none; stroke: #C8A45D; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <circle cx="120" cy="120" r="110" class="gold" />
+  <circle cx="120" cy="120" r="101" class="ink" stroke-width="1.5" />
+  <path class="gold" d="M120 28v10M120 202v10M28 120h10M202 120h10M55 55l7 7M178 178l7 7M185 55l-7 7M62 178l-7 7" />
+  <path class="ink" d="M62 148h52c8 0 14 3 16 8 2-5 8-8 16-8h52v24c0 8-6 14-14 14h-44c-6 0-10 3-10 8-2-5-6-8-12-8H76c-8 0-14-6-14-14z" />
+  <path class="ink" d="M120 146V94" />
+  <path class="ink" d="M58 138c20-14 44-16 62-6 18-10 42-8 62 6" />
+  <path class="ink" d="M120 146v20M92 174h56" />
+  <path class="ink" d="M48 184h144M78 196h84" />
+  <path class="gold" d="M82 92c2-16 14-28 30-30M158 92c-2-16-14-28-30-30" />
+  <path class="ink" d="M104 66c8-8 24-8 32 0" />
+  <path class="gold" d="M112 52c8-10 24-10 32 0" />
+</svg>

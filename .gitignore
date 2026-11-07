@@ -1,0 +1,52 @@
+
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Backend local data
+backend/.data/
+backend/.mongo/
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Sensitive credentials
+backend/.seed-credentials.txt
+backend/.bootstrap-credentials.txt
+
+# Build and coverage
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vercel
+.vercel/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Testing
+playwright-report/
+test-results/
+
+admin id and passwords.txt
+prompt.txt
+
+# Frontend local data
+frontend/.data/

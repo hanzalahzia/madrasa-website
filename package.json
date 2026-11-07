@@ -1,0 +1,27 @@
+{
+  "name": "madrasa-miftah-ul-uloom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Madrasa Miftah ul Uloom multilingual website, management system and Islamic bookstore",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c green,cyan \"npm --workspace backend run dev\" \"npm --workspace frontend run dev\"",
+    "dev:backend": "npm --workspace backend run dev",
+    "dev:frontend": "npm --workspace frontend run dev",
+    "seed": "npm --workspace backend run seed",
+    "build": "npm --workspace backend run build && npm --workspace frontend run build",
+    "start": "concurrently -n api,web -c green,cyan \"npm --workspace backend run start\" \"npm --workspace frontend run start\"",
+    "test": "npm --workspace backend run test",
+    "typecheck": "npm --workspace backend run typecheck && npm --workspace frontend run typecheck",
+    "lint": "npm --workspace frontend run lint"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.1"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
